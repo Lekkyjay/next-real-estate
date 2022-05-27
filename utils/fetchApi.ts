@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from "axios"
 
-export const baseUrl = 'https://bayut.p.rapidapi.com';
+export const baseUrl = 'https://bayut.p.rapidapi.com'
 
 export const fetchApi = async (url: string) => {
   const { data } = await axios.get((url), {
@@ -8,7 +8,7 @@ export const fetchApi = async (url: string) => {
       'x-rapidapi-host': 'bayut.p.rapidapi.com',
       'x-rapidapi-key': process.env.NEXT_PUBLIC_RAPID_API_KEY as string ,
     },
-  });
+  })
     
-  return data;
+  return data
 }
