@@ -41,3 +41,22 @@ export interface IProperty {
   isVerified?: string 
   externalID?: string
 }
+
+export interface IFilterValues {
+  purpose: string
+  rentFrequency: string
+  categoryExternalID: string
+  minPrice: string
+  maxPrice: string
+  areaMax: string
+  roomsMin: string
+  bathsMin: string
+  sort: string
+  locationExternalIDs: string
+}
+
+export interface ILocation {
+  id: string
+  name: string
+  externalID: string
+}
