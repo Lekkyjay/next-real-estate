@@ -27,8 +27,8 @@ export const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, link
 
 
 const Home: NextPage<{ propertiesForSale: IProperty[], propertiesForRent: IProperty[] }> = ({ propertiesForSale, propertiesForRent}: Props) => {
-  console.log('propertiesForSale:', propertiesForSale)
-  console.log('propertiesForRent:', propertiesForRent)
+  // console.log('propertiesForSale:', propertiesForSale)
+  // console.log('propertiesForRent:', propertiesForRent)
   return (
     <Box>
       <Banner
