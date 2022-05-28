@@ -40,6 +40,12 @@ export interface IProperty {
   }
   isVerified?: string 
   externalID?: string
+  description?: string
+  type?: string
+  purpose?: string
+  furnishingStatus?: string
+  amenities?: any[]
+  photos?: any[]
 }
 
 export interface IFilterValues {
